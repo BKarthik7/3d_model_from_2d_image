@@ -1,6 +1,5 @@
-# src/inference.py
-
 import numpy as np
+from tensorflow.keras.models import Model  # Add this line
 from src.model.encoder import build_encoder
 from src.model.decoder import build_decoder
 from src.data_processing import load_image
